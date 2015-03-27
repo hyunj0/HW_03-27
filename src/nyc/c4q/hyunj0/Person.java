@@ -2,18 +2,17 @@ package nyc.c4q.hyunj0;
 
 /**
  * A Person class
- */
-
+ **/
 public class Person {
 
     private String name;
     private String phoneNumber;
     private String city;
 
-    public void Person(){
+    public Person(){
     }
 
-    public void Person(String name){
+    public Person(String name){
         this.name = name;
     }
 

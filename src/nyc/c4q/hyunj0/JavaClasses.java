@@ -3,8 +3,7 @@ package nyc.c4q.hyunj0;
 import java.util.Scanner;
 
 /**
- * Created by c4q-hyunj0 on 3/23/15
- * Updated 3/24/15
+ * Created by c4q-hyunj0, alizinha on 3/23/15.
  **/
 
 public class JavaClasses {
@@ -41,11 +40,13 @@ public class JavaClasses {
         System.out.println("Baby Registration");
 
         Person parent = new Person();
+        Person child = new Person();
 
         parent.setPhoneNumber("(718) 123 - 6789");
         parent.setCity("New York City");
 
-        registerChild(parent);
+        child.setName("Abc");
+        registerChild(parent, child);
 
     }
 
@@ -57,9 +58,7 @@ public class JavaClasses {
         }
     }
 
-    public static Person registerChild (Person parent) {
-        Person child = new Person();
-        child.setName("Abc");
+    public static Person registerChild (Person parent, Person child) {
         System.out.println("Name: " + child.getName());
         System.out.println("Phone Number: " + parent.getPhoneNumber());
         System.out.println("City: " + parent.getCity());

@@ -3,7 +3,7 @@ package nyc.c4q.hyunj0;
 import java.util.Scanner;
 
 /**
- *Created by c4q-hyunj0, alizinha, ahhhlvin, lighterletter
+ * Created by c4q-hyunj0, alizinha, ahhhlvin, lighterletter on 3/23/15.
  **/
 
 //TODOS: work on error message for numbers
@@ -13,7 +13,7 @@ public class DistinctCharacters {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a word or sentence");
-        String string = input.next();
+        String string = input.nextLine();
         System.out.println(uniqueCharacters(string));
 
     }
